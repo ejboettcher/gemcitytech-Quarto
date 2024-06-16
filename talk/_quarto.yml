@@ -11,19 +11,17 @@ format:
     css: img/evelyn_2023.css
     toc: true
 
-  
-
 website:
   title: "No/Low Code Workshop"
   navbar:
     left:
       - href: index.html
-        text: Home
+        text: "Home"
       - href: https://ejboettcher.github.io/gemcityML-No-CodeAI/application_demo/index.html
         text: "Web App Demo"
       - href: slide_deck.html
-        text: Slides
-      - href: lessonplan.qmd
+        text: "Slides"
+      - href: lessonplan.pdf
         text: "Lesson Plan"
       - href: https://github.com/ejboettcher/gemcityML-No-CodeAI/tree/main/docs/student_application_starter
         text: "Student App Code"

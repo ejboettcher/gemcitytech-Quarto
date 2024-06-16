@@ -2,7 +2,7 @@
 layout: single
 title: "Custom Template"
 
-author: "Evelyn J. BOettcher"
+author: "Evelyn J. Boettcher"
 classification: "Fun"
 classification_color: "orange"
 classifyby: "No one, \\ I have no authority "
@@ -14,16 +14,11 @@ tags:
   - homework
 
 subtitle: "python 101"
-date: 2022-09-08
+date: 2024-09-08
 
 format:
-  pdf:
-      template-partials:
-        - latex_template/before-body.tex
-        - latex_template/_titlepage.tex
-        - latex_template/doc-class.tex
+  classy-pdf:
       keep-tex: true
-      documentclass: report
 
 ---
 

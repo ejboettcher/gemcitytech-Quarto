@@ -1,24 +1,11 @@
-## GemCity ML: No /Low Code ML Tutorial
-### Dec 30, 2023
+## GemCity Tech: New To Tech Tutorial on Quarto
+### July 3, 2024
 ### Evelyn J. Boettcher
 
-![WTM](./talk/data/WTM_Logo_Stacked_Horizontal_Color.png)
+## Analyze. Share. Reproduce with Quarto 
 
-Evelyn J. Boettcher's tutorial based on a Google Women Techmakers educational tutorial on how to make an image classifier application with No/Low Code.
-
-This tutorial is designed to encourage kids to go into Computer Science by gently introducing them to AI and Machine learning. No Coding or ML experience needed.
-
-Please bring a laptop. The goal of this tutorial is to walk you through the ML/AI concepts and build your own application that can recognize hand gestures, cat etc from a web camera.
-
-This is a step-by-step guide to build an ML image application 
-
-| Subject | Image                             |
-|:----    |:----------------------------------|
-| Train a model | ![](./talk/data/teachable_machine.png) |
-| Export Model | ![](./talk/data/export_model.png)      |
-| Integrate Model | ![](./talk/data/evelyn_peace.png)      |
-
-
+Have you ever wished there was a way to reuse documentations without copy and pasting?
+Or wish there was a way to produce a final report and website with the same content without having to repeat yourself.  And without not having to know LaTex and HTML.  Welcome to the world of Quarto.  Quarto is a free open-source scientific and technical publishing system that allows you to publish reproducible, production quality articles, presentations, dashboards, websites, blogs, and books in HTML, PDF, MS Word, ePub, and more all from markdown your documents. “You have a story to tell with data—tell it with Quarto”
 
 ### In this Repo
 

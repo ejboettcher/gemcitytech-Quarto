@@ -151,7 +151,7 @@
     "href": "quarto_talk.html#what-quarto-runs-code",
     "title": "Analyze, Share, Reproduce with Quarto",
     "section": "What Quarto Runs Code?",
-    "text": "What Quarto Runs Code?\nYes\nQuarto will run python, r, and Julia code when rendering documentation.\nTo run code use {} around your program language\n'''{python}\nprint(hello World)\n\n'''\nvs \n{python}\nprint(hello World)"
+    "text": "What Quarto Runs Code?\nYes\nQuarto will run python, r, and Julia code when rendering documentation.\nTo run code use {} around your program language\n'''{python}\nprint(hello World)\n'''\nvs \n\n'''python\nprint(hello World)\n'''"
   },
   {
     "objectID": "quarto_talk.html#website",
@@ -172,7 +172,7 @@
     "href": "quarto_talk.html#examples",
     "title": "Analyze, Share, Reproduce with Quarto",
     "section": "Examples",
-    "text": "Examples\nWebsite\n\nindex.qmd\n_quarto.yml\n\n\n\nDocuments\nImport Templetes\n\nlessonplan\n\nDefault\n\ncustom_template\n\n\n\nSlides\n\nslides\n\n\n\n\nGem City Tech ML/AI"
+    "text": "Examples\nWebsite\n\nindex.qmd\n_quarto.yml\n\n\n\nDocuments\nImport Templetes\n\nlessonplan\n\nDefault\n\ncustom_template\n\n\n\nSlides\n\nslides"
   },
   {
     "objectID": "custom_template.html",
@@ -201,5 +201,12 @@
     "title": "",
     "section": "",
     "text": "Outline:\n\nClasses and Models (No computers, Need monkey cards)\nFinished Application Demo\nWalk through Teachable Machines\nStudent build their own application (two class AI model)\n(stretch) Students build three class application\n(stretch) Students build a nicer application\n\n\n\nHOOK\nShow finished Application Demo\nAsk: How does that work?\nWalk through what a class is.\nGive students a set of the green monkey cards (from AI Unplugged). Have teams divide their chart paper into 2 classes: Biting and Non Biting.\nTraining data (blue paper):\n\nbiting: 1, 2, 3, 4\nnon- biting: 5-20 Have them decide which characteristics are for biting monkeys. This is done as a group.\n\nThen show them the test data (green paper) and see how well their model did.\nTest data (green paper)\n\nBiting: 22, 23, 24\nNon-biting: 21, 25 - 40\n\nAI Unplugged has more example in this paper\n\n\n\nOverview Video on Machine Learning (~ 2 minutes)\nYouTube (very simple explanation)\n\n\n\nTrain Model with Teachable Machines.\n\nDemo how to train a model on Teachable Machine\nGive students 6-7 minutes to train their own.\n\nHave students go to Teachable Machine\nClick Get Started and start an image classification\nLet students create two class classification for any school acceptable hand jester.\n\nKeep the images simple\nname your classes something descriptive: Cat / Dog\nAsk how you could account for differences: skin color, jewelry, nail color.\n\n\n\n\n\n\n\nDownload model.\n\nShow students how to copy their model to a folder (static) in student_application_start,\nUpdate the URL in the my_model.js (line 5)\n\n(stretch) Show students how to add an image to the first “if” condition. (on line 64) (hint: look at the application_demo folder)\n\nUse Wikipedia images search for emojis\n\n(stretch) Ask how the Javascript syntax is different than the Python Syntax\n\n\n\n\n\nHave each group Demo their application\nStudent Reflection:\n\nHow could you use ML application in your school, home, car?\nWhat would you have to consider when training a model?\n\nCelebrate: You created a working ML models!\n\nFollow-up Resources:\n\nAI Unplugged\nAI for ALl summer programs\nThe Code Train\nGoogle Tutorial"
+  },
+  {
+    "objectID": "quarto_talk.html#questions",
+    "href": "quarto_talk.html#questions",
+    "title": "Analyze, Share, Reproduce with Quarto",
+    "section": "Questions",
+    "text": "Questions\n\n\n\nGem City Tech ML/AI"
   }
 ]
