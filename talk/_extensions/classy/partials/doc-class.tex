@@ -1,0 +1,61 @@
+\documentclass[
+$if(fontsize)$
+  $fontsize$,
+$endif$
+$if(papersize)$
+  $papersize$paper,
+$endif$
+$if(beamer)$
+  ignorenonframetext,
+$if(handout)$
+  handout,
+$endif$
+$if(aspectratio)$
+  aspectratio=$aspectratio$,
+$endif$
+$endif$
+$for(classoption)$
+  $classoption$$sep$,
+$endfor$
+]{$documentclass$}
+
+% fancy header
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancypagestyle{custom-fancy}{%
+\fancyhf{}
+\fancyhfoffset[L]{1cm} % left extra length
+\fancyhfoffset[R]{1cm} % right extra length
+
+$if(classification)$
+$if(classification_color)$
+    \chead{\textcolor{$classification_color$}{\textbf{$classification$}}}
+    \cfoot{\textcolor{$classification_color$}{\textbf{$classification$}}}
+$else$
+    \cfoot{$classification$}
+    \chead{$classification$}
+$endif$
+$endif$
+\rfoot{}
+}
+\fancypagestyle{plain}{%
+\fancyhf{}
+\fancyhfoffset[L]{1cm} % left extra length
+\fancyhfoffset[R]{1cm} % right extra length
+\rhead{\today}
+
+$if(classification)$
+$if(classification_color)$
+    \chead{\textcolor{$classification_color$}{\textbf{$classification$}}}
+    \cfoot{\textcolor{$classification_color$}{\textbf{$classification$}}}
+$else$
+    \cfoot{$classification$}
+    \chead{$classification$}
+$endif$
+$endif$
+\rfoot{\thepage}
+}
+
+\addtocontents{toc}{\protect\thispagestyle{custom-fancy}}
+

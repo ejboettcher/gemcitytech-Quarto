@@ -1,0 +1,205 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "No Code ML/AI Tutorial",
+    "section": "",
+    "text": "WTM\n\n\nEvelyn J. Boettcher’s tutorial is based on a Google Women Techmakers educational tutorial on how to make an image classifier application with No/Low Code.\nThis tutorial is designed to encourage kids to go into Computer Science by gently introducing them to AI and Machine learning. No Coding or ML experience needed.\nThe goal of this tutorial is to walk someone through the ML/AI concepts and have them build their own application that can recognize hand gestures, cat etc from a web camera.\nThis is a step-by-step guide to build an ML image application\n\n\n\nSubject\nImage\n\n\n\n\nTrain a model\n\n\n\nExport Model\n\n\n\nIntegrate Model"
+  },
+  {
+    "objectID": "slide_deck.html#welcome",
+    "href": "slide_deck.html#welcome",
+    "title": "No Code Machine Learning Workshop",
+    "section": "Welcome",
+    "text": "Welcome\n\n\n\nPlease grab a pencil/pen and paper. (Reflection afterwards)\nPlease go to github for code\n\nDownload the repo\n\n\n\n\n\n\ngithub"
+  },
+  {
+    "objectID": "slide_deck.html#ml-with-teachable-machines",
+    "href": "slide_deck.html#ml-with-teachable-machines",
+    "title": "No Code Machine Learning Workshop",
+    "section": "ML with Teachable Machines",
+    "text": "ML with Teachable Machines\nFirst\nLet’s get in the right mindset.\n\nWe are all learners and we are all teachers.\n\nplease, ask and give help as needed\n\nEveryone here is valued and respected\nGot Stuck:\n\nBreak it up and try again\n\nThis is an intro (e.g. Taste / sample of a technical skills)\n\nWant to build a more powerful app or dig deeper\n\nGo to Tensorflow website"
+  },
+  {
+    "objectID": "slide_deck.html#about-me",
+    "href": "slide_deck.html#about-me",
+    "title": "No Code Machine Learning Workshop",
+    "section": "About Me",
+    "text": "About Me\nEvelyn J. Boettcher\n\n\n\n\n\nEvelyn Boettcher\n\n\n\n\n\n\nMom\nLoves to sew and cook\nI speak one language well and that is python!\nTrained Physicist (I have a Master’s degree)\nI like to make things\n\nI have patents\nMade IoT devices to automate house\n\nMember of GemCity.TECH and Google Women Techmaker Ambassador"
+  },
+  {
+    "objectID": "slide_deck.html#todays-goal",
+    "href": "slide_deck.html#todays-goal",
+    "title": "No Code Machine Learning Workshop",
+    "section": "Today’s Goal",
+    "text": "Today’s Goal\n\n\n\nTrain a model to classify hand gestures\n\nLearn what a classifier is\n\nUse conditional statements to turn those classes into and emoji\nBuild a Web application"
+  },
+  {
+    "objectID": "slide_deck.html#classifications-and-models",
+    "href": "slide_deck.html#classifications-and-models",
+    "title": "No Code Machine Learning Workshop",
+    "section": "Classifications and Models:",
+    "text": "Classifications and Models:\nWe are going to build a model that classifies between two (or more) classes.\n\nClassification\nA category into which something is put.\n\nModel\nTries to predict the correct label of a given input data.\nThe model is trained using the training data, and then it is evaluated on test data."
+  },
+  {
+    "objectID": "slide_deck.html#classification-1",
+    "href": "slide_deck.html#classification-1",
+    "title": "No Code Machine Learning Workshop",
+    "section": "Classification",
+    "text": "Classification\n\n\nYour task is to group monkeys into two classes:\n\nClass_1: Biting Monkey\nClass_2: Non-Biting Monkeys\n\n\nMaterials: Each group gets one set of blue monkey carts\n\n\nClassification: Challenge\n\nDevelop a rule to define: Biting and NonBiting\nSeparate your codes by that rule\nRepeat until all of your cards can follow your rule.\n\n\n\nImage from Huffington Post.\n\n\n\n\n\n\n\n\n\nClass_1: Biting\nClass_2: Non Biting\n\n\n\n\ncard c\ncard d\n\n\ncard a\ncard b\n\n\n…\n…"
+  },
+  {
+    "objectID": "slide_deck.html#machine-learning",
+    "href": "slide_deck.html#machine-learning",
+    "title": "No Code Machine Learning Workshop",
+    "section": "Machine Learning",
+    "text": "Machine Learning\nVideo by OxfordSparks:"
+  },
+  {
+    "objectID": "slide_deck.html#break",
+    "href": "slide_deck.html#break",
+    "title": "No Code Machine Learning Workshop",
+    "section": "Break",
+    "text": "Break\nBefore we get to building our machine learning model, lets take a break.\n\nStand up\nStretch\nWalk Around\nGet some water"
+  },
+  {
+    "objectID": "slide_deck.html#building-a-ml-model",
+    "href": "slide_deck.html#building-a-ml-model",
+    "title": "No Code Machine Learning Workshop",
+    "section": "Building a ML Model",
+    "text": "Building a ML Model\nThere are three basic steps to building a model\n\n\n\nTrain the model\nExport the model\nUse the model\nForth Step: Repeat\n\n\nWhy a forth step\nYour model, app etc will not work the first time.\n\n\n\n\ncomputer_fire"
+  },
+  {
+    "objectID": "slide_deck.html#stretch-goals-1",
+    "href": "slide_deck.html#stretch-goals-1",
+    "title": "No Code Machine Learning Workshop",
+    "section": "Stretch Goals:",
+    "text": "Stretch Goals:\nConditional Statements\nif this is true then, else do this.\n\nif you are in 9th grade (the condition)\n\n\nRaise your hand\n\nelse\n\n\nFold your hands on your desk\n\n\nAll computer programs have the ability to do an if/else (conditional) statements."
+  },
+  {
+    "objectID": "slide_deck.html#javascript-syntax",
+    "href": "slide_deck.html#javascript-syntax",
+    "title": "No Code Machine Learning Workshop",
+    "section": "Javascript Syntax",
+    "text": "Javascript Syntax\nWe will be using a computer language called Javascript.\nSyntax is the rules that control the structure of the symbols, punctuation, and words of a programming language.\n\n\n\n\nSingle condition: syntax (if/else)\nWhat structure do you see.\nif (condition){\n    \\\\ Do this\n} else {\n    \\\\ Do this\n}"
+  },
+  {
+    "objectID": "slide_deck.html#students-ml-gesture-demo",
+    "href": "slide_deck.html#students-ml-gesture-demo",
+    "title": "No Code Machine Learning Workshop",
+    "section": "Student’s ML Gesture Demo",
+    "text": "Student’s ML Gesture Demo\n\nShow your working app\nShow us the code\nExplain your process\n\nNext Steps\n\nWhat you want to do next?\nHow could you use a teachable machine in your home or school\n\nTeacher’s 3rd eye app: bad hand gesture detector?\nCrowd engagement\nPorch pirate detector\n\nWhat steps and obstacle would you have to master.\n\nLearn more\n\nCoding Train: for more Javascript Machine Learning projects\nAI4Allfree AI programs for US-based high school and college students"
+  },
+  {
+    "objectID": "slide_deck.html#acknowledgements",
+    "href": "slide_deck.html#acknowledgements",
+    "title": "No Code Machine Learning Workshop",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\n\nAI Unplugged: Monkey cards\nGoogle Women Techmakers\n\nWorkshop is based on\n\nNicki Anselmo WTM workshop for CS 2023\n\n\n\n\nGem City Tech ML/AI"
+  },
+  {
+    "objectID": "quarto_talk.html#what-is-quarto",
+    "href": "quarto_talk.html#what-is-quarto",
+    "title": "Analyze, Share, Reproduce with Quarto",
+    "section": "What is Quarto",
+    "text": "What is Quarto"
+  },
+  {
+    "objectID": "quarto_talk.html#but-first",
+    "href": "quarto_talk.html#but-first",
+    "title": "Analyze, Share, Reproduce with Quarto",
+    "section": "But First",
+    "text": "But First\nSummer party!"
+  },
+  {
+    "objectID": "quarto_talk.html#quarto",
+    "href": "quarto_talk.html#quarto",
+    "title": "Analyze, Share, Reproduce with Quarto",
+    "section": "Quarto",
+    "text": "Quarto\nAn open-source scientific and technical publishing system\nAuthor using Jupyter notebooks or with plain text markdown in your favorite editor.\n\nCreate dynamic content with Python, R, Julia, and Observable.\nPublish reproducible, production quality articles, presentations, dashboards, websites, blogs, and books in HTML, PDF, MS Word, ePub, and more.\nShare knowledge and insights organization-wide by publishing to Posit Connect, Confluence, or other publishing systems.\nWrite using Pandoc markdown, including equations, citations, crossrefs, figure panels, callouts, advanced layout, and more.\n\nAnalyze. Share. Reproduce. You have a story to tell with data—tell it with Quarto."
+  },
+  {
+    "objectID": "quarto_talk.html#runs-code",
+    "href": "quarto_talk.html#runs-code",
+    "title": "Analyze, Share, Reproduce with Quarto",
+    "section": "Runs Code",
+    "text": "Runs Code\nTo run code use {} around your program language\n'''{python}\nprint(hello World)\n\n'''\nvs \n{python}\nprint(hello World)"
+  },
+  {
+    "objectID": "quarto_talk.html#code-demo",
+    "href": "quarto_talk.html#code-demo",
+    "title": "Analyze, Share, Reproduce with Quarto",
+    "section": "Code Demo",
+    "text": "Code Demo\nLine plot on a polar axis, see Figure 1. “NOTE:” the ``` does not show\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "quarto_talk.html#code-demo-1",
+    "href": "quarto_talk.html#code-demo-1",
+    "title": "Analyze, Share, Reproduce with Quarto",
+    "section": "Code Demo",
+    "text": "Code Demo\nReference a plot/figure, see Figure 1.\nOr reference on same page Figure 2\n\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\nFigure 2: Side line plot on a polar axis"
+  },
+  {
+    "objectID": "quarto_talk.html#how-it-works",
+    "href": "quarto_talk.html#how-it-works",
+    "title": "Analyze, Share, Reproduce with Quarto",
+    "section": "How it works",
+    "text": "How it works\nWhen you render a .qmd file with Quarto, the executable code blocks are processed by Jupyter, and the resulting combination of code, markdown, and output is converted to plain markdown. Then, this markdown is processed by Pandoc, creating almost any format that you define:\n\nword\nhtml\npowerpoint\npdf\nect\n\n\nhttps://quarto.org/docs/get-started/hello/neovim.html"
+  },
+  {
+    "objectID": "quarto_talk.html#what-quarto-runs-code",
+    "href": "quarto_talk.html#what-quarto-runs-code",
+    "title": "Analyze, Share, Reproduce with Quarto",
+    "section": "What Quarto Runs Code?",
+    "text": "What Quarto Runs Code?\nYes\nQuarto will run python, r, and Julia code when rendering documentation.\nTo run code use {} around your program language\n'''{python}\nprint(hello World)\n\n'''\nvs \n{python}\nprint(hello World)"
+  },
+  {
+    "objectID": "quarto_talk.html#website",
+    "href": "quarto_talk.html#website",
+    "title": "Analyze, Share, Reproduce with Quarto",
+    "section": "Website",
+    "text": "Website"
+  },
+  {
+    "objectID": "quarto_talk.html#documents",
+    "href": "quarto_talk.html#documents",
+    "title": "Analyze, Share, Reproduce with Quarto",
+    "section": "Documents",
+    "text": "Documents\nImport Templetes\nDefault\n\n\n\nGem City Tech ML/AI"
+  },
+  {
+    "objectID": "quarto_talk.html#examples",
+    "href": "quarto_talk.html#examples",
+    "title": "Analyze, Share, Reproduce with Quarto",
+    "section": "Examples",
+    "text": "Examples\nWebsite\n\nindex.qmd\n_quarto.yml\n\n\n\nDocuments\nImport Templetes\n\nlessonplan\n\nDefault\n\ncustom_template\n\n\n\nSlides\n\nslides\n\n\n\n\nGem City Tech ML/AI"
+  },
+  {
+    "objectID": "custom_template.html",
+    "href": "custom_template.html",
+    "title": "",
+    "section": "",
+    "text": "Explain what np.polynomial does in this script. ** And what are my options besides Polynomial\n\nimport numpy as np\nimport pandas as pd\n\ndf = pd.read_csv('../data/co2_weekly_mlo.txt', skiprows=49,\n                     names=['yr', 'mon', 'day', 'decimal', 'ppm', ' #days', '1 yr ago', '10 yr ago', 'since 1800'],\n                     delim_whitespace=True)\nclean_df = df[df.ppm != -999.99]\npp = np.polynomial.Polynomial(np.polyfit(clean_df.decimal, clean_df.ppm, 1))\nplt.scatter(clean_df.decimal, clean_df.ppm)\nplt.plot(clean_df.decimal, pp(clean_df.decimal), color='red')\nplt.show()\n\n\n\n\nA No / Low Code workshop where students will learn about machine learning (ML) and build their own ML application.\n\nTraining the AI/ML model is a NO code exercise.\n\nCreating a working web application is a low code exercise.\n\nStudents will modify a working application for their needs.\n\n\n\n\n4th through 12th\nThis mainly targets to middle school to elementary. But there is no age limit on this workshop.\n\n\n\nSlide Deck\n\n\n\n60-90 minutes\n\n\n\n\nStudents will learn about classification\nHow classifications is used in Machine learning (ML)\nHow to create their own ml algorithm\nCreate their own application\nBe introduced to computer science.\n\n\n\n\nExplain that machine learning is when computers detect patterns\nMake their own rules (a model) for describing those patterns\nTrain a machine learning model using Teachable Machine\nUse conditional statements\n\n\n\n\n\n\n\n\n\nItem\nQty\n\n\n\n\nMonkey Carts Printed\n1 set per group\n\n\nlaptop with web camera\n1 per group\n\n\nInternet\n\n\n\nPen and Paper\n1 per student\n\n\n\n\n\n\n\nOutline:\n\nClasses and Models (No computers, Need monkey cards)\nFinished Application Demo\nWalk through Teachable Machines\nStudent build their own application (two class AI model)\n(stretch) Students build three class application\n(stretch) Students build a nicer application\n\n\n\nHOOK\nShow finished Application Demo\nAsk: How does that work?\nWalk through what a class is.\nGive students a set of the green monkey cards (from AI Unplugged). Have teams divide their chart paper into 2 classes: Biting and Non Biting.\nTraining data (blue paper):\n\nbiting: 1, 2, 3, 4\nnon- biting: 5-20 Have them decide which characteristics are for biting monkeys. This is done as a group.\n\nThen show them the test data (green paper) and see how well their model did.\nTest data (green paper)\n\nBiting: 22, 23, 24\nNon-biting: 21, 25 - 40\n\nAI Unplugged has more example in this paper\n\n\n\nOverview Video on Machine Learning (~ 2 minutes)\nYouTube (very simple explanation)\n\n\n\nTrain Model with Teachable Machines.\n\nDemo how to train a model on Teachable Machine\nGive students 6-7 minutes to train their own.\n\nHave students go to Teachable Machine\nClick Get Started and start an image classification\nLet students create two class classification for any school acceptable hand jester.\n\nKeep the images simple\nname your classes something descriptive: Cat / Dog\nAsk how you could account for differences: skin color, jewelry, nail color.\n\n\n\n\n\n\n\nDownload model.\n\nShow students how to copy their model to a folder (static) in student_application_start,\nUpdate the URL in the my_model.js (line 5)\n\n(stretch) Show students how to add an image to the first “if” condition. (on line 64) (hint: look at the application_demo folder)\n\nUse Wikipedia images search for emojis\n\n(stretch) Ask how the Javascript syntax is different than the Python Syntax\n\n\n\n\n\nHave each group Demo their application\nStudent Reflection:\n\nHow could you use ML application in your school, home, car?\nWhat would you have to consider when training a model?\n\nCelebrate: You created a working ML models!\n\nFollow-up Resources:\n\nAI Unplugged\nAI for ALl summer programs\nThe Code Train\nGoogle Tutorial"
+  },
+  {
+    "objectID": "custom_template.html#week-3-lesson-1-linear-regression",
+    "href": "custom_template.html#week-3-lesson-1-linear-regression",
+    "title": "",
+    "section": "",
+    "text": "Explain what np.polynomial does in this script. ** And what are my options besides Polynomial\n\nimport numpy as np\nimport pandas as pd\n\ndf = pd.read_csv('../data/co2_weekly_mlo.txt', skiprows=49,\n                     names=['yr', 'mon', 'day', 'decimal', 'ppm', ' #days', '1 yr ago', '10 yr ago', 'since 1800'],\n                     delim_whitespace=True)\nclean_df = df[df.ppm != -999.99]\npp = np.polynomial.Polynomial(np.polyfit(clean_df.decimal, clean_df.ppm, 1))\nplt.scatter(clean_df.decimal, clean_df.ppm)\nplt.plot(clean_df.decimal, pp(clean_df.decimal), color='red')\nplt.show()"
+  },
+  {
+    "objectID": "custom_template.html#discover-computer-science-teachable-machine-workshop",
+    "href": "custom_template.html#discover-computer-science-teachable-machine-workshop",
+    "title": "",
+    "section": "",
+    "text": "A No / Low Code workshop where students will learn about machine learning (ML) and build their own ML application.\n\nTraining the AI/ML model is a NO code exercise.\n\nCreating a working web application is a low code exercise.\n\nStudents will modify a working application for their needs.\n\n\n\n\n4th through 12th\nThis mainly targets to middle school to elementary. But there is no age limit on this workshop.\n\n\n\nSlide Deck\n\n\n\n60-90 minutes\n\n\n\n\nStudents will learn about classification\nHow classifications is used in Machine learning (ML)\nHow to create their own ml algorithm\nCreate their own application\nBe introduced to computer science.\n\n\n\n\nExplain that machine learning is when computers detect patterns\nMake their own rules (a model) for describing those patterns\nTrain a machine learning model using Teachable Machine\nUse conditional statements\n\n\n\n\n\n\n\n\n\nItem\nQty\n\n\n\n\nMonkey Carts Printed\n1 set per group\n\n\nlaptop with web camera\n1 per group\n\n\nInternet\n\n\n\nPen and Paper\n1 per student"
+  },
+  {
+    "objectID": "custom_template.html#lesson",
+    "href": "custom_template.html#lesson",
+    "title": "",
+    "section": "",
+    "text": "Outline:\n\nClasses and Models (No computers, Need monkey cards)\nFinished Application Demo\nWalk through Teachable Machines\nStudent build their own application (two class AI model)\n(stretch) Students build three class application\n(stretch) Students build a nicer application\n\n\n\nHOOK\nShow finished Application Demo\nAsk: How does that work?\nWalk through what a class is.\nGive students a set of the green monkey cards (from AI Unplugged). Have teams divide their chart paper into 2 classes: Biting and Non Biting.\nTraining data (blue paper):\n\nbiting: 1, 2, 3, 4\nnon- biting: 5-20 Have them decide which characteristics are for biting monkeys. This is done as a group.\n\nThen show them the test data (green paper) and see how well their model did.\nTest data (green paper)\n\nBiting: 22, 23, 24\nNon-biting: 21, 25 - 40\n\nAI Unplugged has more example in this paper\n\n\n\nOverview Video on Machine Learning (~ 2 minutes)\nYouTube (very simple explanation)\n\n\n\nTrain Model with Teachable Machines.\n\nDemo how to train a model on Teachable Machine\nGive students 6-7 minutes to train their own.\n\nHave students go to Teachable Machine\nClick Get Started and start an image classification\nLet students create two class classification for any school acceptable hand jester.\n\nKeep the images simple\nname your classes something descriptive: Cat / Dog\nAsk how you could account for differences: skin color, jewelry, nail color.\n\n\n\n\n\n\n\nDownload model.\n\nShow students how to copy their model to a folder (static) in student_application_start,\nUpdate the URL in the my_model.js (line 5)\n\n(stretch) Show students how to add an image to the first “if” condition. (on line 64) (hint: look at the application_demo folder)\n\nUse Wikipedia images search for emojis\n\n(stretch) Ask how the Javascript syntax is different than the Python Syntax\n\n\n\n\n\nHave each group Demo their application\nStudent Reflection:\n\nHow could you use ML application in your school, home, car?\nWhat would you have to consider when training a model?\n\nCelebrate: You created a working ML models!\n\nFollow-up Resources:\n\nAI Unplugged\nAI for ALl summer programs\nThe Code Train\nGoogle Tutorial"
+  }
+]

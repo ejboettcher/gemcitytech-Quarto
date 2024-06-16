@@ -1,0 +1,13 @@
+---
+title: "Lesson Plan"
+date: "20231231"
+author: "Evelyn J. Boettcher"
+format:
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+---
+
+
+{{< include ./_markdown/lesson_plan.md >}}

@@ -1,0 +1,154 @@
+---
+title: "Analyze, Share, Reproduce with Quarto"
+subtitle: "Building documentation with low code."
+author: "Evelyn J. Boettcher"
+date: "20240703"
+title-slide-attributes:
+    data-background-image: 'img/logos/gem_cityML_slide.png'
+    data-background-size: "100% 100% "
+    data-background-position: "0% "
+    data-background-opacity: "0.95"
+format:  
+    revealjs:
+        theme: [img/evelyn_2023.scss, default]
+        css: img/evelyn_2023.css
+        logo: './img/logos/DidactexLogo.png'
+        footer: "Gem City Tech ML/AI "
+        scrollable: true
+        transition: slide
+        transition-speed: fast    
+        chalkboard:
+            buttons: true
+
+fig-cap-location: margin
+---
+
+## What is Quarto
+
+## But First
+### Summer party!
+
+![](./img/BBQ.png)
+
+## Quarto
+
+### An open-source scientific and technical publishing system
+Author using Jupyter notebooks or with plain text markdown in your favorite editor.
+
+* Create dynamic content with Python, R, Julia, and Observable.
+* Publish reproducible, production quality articles, presentations, dashboards, websites, blogs, and books in HTML, PDF, MS Word, ePub, and more.
+* Share knowledge and insights organization-wide by publishing to Posit Connect, Confluence, or other publishing systems.
+* Write using Pandoc markdown, including equations, citations, crossrefs, figure panels, callouts, advanced layout, and more.
+
+### Analyze. Share. Reproduce. You have a story to tell with data—tell it with Quarto.
+
+## How it works
+
+When you render a .qmd file with Quarto, the executable code blocks are processed by Jupyter, and the resulting combination of code, markdown, and output is converted to plain markdown. Then, this markdown is processed by Pandoc, creating almost any format that you define:
+
+* word
+* html
+* powerpoint
+* pdf
+* ect
+
+![https://quarto.org/docs/get-started/hello/neovim.html](./img/qmd-how-it-works.png)
+
+
+## What Quarto Runs Code?
+
+### Yes
+
+Quarto will run python, r, and Julia code when rendering documentation.
+
+
+To run code use {} around your program language
+
+```markdown
+'''{python}
+print(hello World)
+
+'''
+vs 
+{python}
+print(hello World)
+
+```
+
+## Code Demo
+Line plot on a polar axis, see @fig-polar.
+"NOTE:" the *```* does not show
+
+```{python}
+#| label: fig-polar
+#| fig-cap: "A line plot on a polar axis"
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(
+  subplot_kw = {'projection': 'polar'} 
+)
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+## Code Demo
+Reference a plot/figure, see @fig-polar.  
+Or reference on same page
+@fig-polar-side
+
+```{python, fig.show='hold', out.width="49%"}
+#| label: fig-polar-side
+#| fig-cap: "Side line plot on a polar axis"
+#| code-fold: true
+#| code-tools: true
+#| fig-show: "hold"
+#| output-location: column
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(
+  subplot_kw = {'projection': 'polar'} 
+)
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+## Examples
+### Website
+
+* [index.qmd](./index.qmd)
+* [_quarto.yml](./_quarto.yml)
+
+<br>
+<hr>
+
+### Documents
+
+#### Import Templetes
+
+* [lessonplan](./lessonplan.qmd)
+
+#### Default
+
+* [custom_template](./custom_template.qmd)
+
+<br>
+<hr>
+
+### Slides
+
+* [slides](./slide_deck.qmd)
+
+## Questions
+
